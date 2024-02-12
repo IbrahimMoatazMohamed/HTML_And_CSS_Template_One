@@ -215,7 +215,7 @@ body {
 @media (max-width: 767px) {
   .services-content.grid-3 {
     display: grid;
-    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-template-columns: minmax(300px, 1fr);
     grid-gap: 20px;
   }
   .services .services-content .srv {
