@@ -45,7 +45,7 @@ body {
 }
 /* End Global Ruls */
 /* Start Components */
-.grid-3{
+.grid-3 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 20px;
@@ -207,7 +207,6 @@ body {
 }
 .services .services-content {
   margin-top: 100px;
-
 }
 .services .services-content .srv {
   display: flex;
@@ -254,6 +253,11 @@ body {
 @media (max-width: 1199px) {
   .image-column {
     display: none;
+  }
+  .services-content.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-gap: 20px;
   }
 }
 /* End Services */
